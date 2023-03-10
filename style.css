@@ -77,3 +77,22 @@ input[type="range"]{
 input[type="range"]:not(:last-child){
     margin-bottom: 5px;
 }
+
+section:not(:last-child){
+    margin-bottom: 40px;
+}
+
+section:not(:first-child){
+    margin-top: 40px;
+}
+
+section:last-child{
+    background-color: #f274056c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section:last-child .val,
+section:last-child .lbl {
+    color: #010B40;
+}
