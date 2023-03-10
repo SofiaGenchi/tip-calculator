@@ -50,7 +50,7 @@ body {
 }
 
 .input-box {
-    background-color: #F0F2F1;
+    background-color: #f274056c;
     color: #010B40;
     padding: 18px;
 }
@@ -67,4 +67,13 @@ body {
 hr {
     border: none;
     border-bottom: 1px solid #F27405;
+}
+
+input[type="range"]{
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type="range"]:not(:last-child){
+    margin-bottom: 5px;
 }
